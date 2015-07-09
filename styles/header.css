@@ -1,0 +1,50 @@
+header {
+	background-color: #273d5d;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+
+.h-small {
+	width: 15%;
+	height: 100%;
+}
+	
+	.h-small p {
+		margin: 0;
+	}	
+
+.h-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #979797;
+}
+
+	.h-left p {
+		font-size: 20px;
+	}
+
+.h-right {
+	border-left: 1px solid #979797;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.h-large {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+	.h-large p {
+		margin: 0;
+		text-transform: uppercase;
+	}

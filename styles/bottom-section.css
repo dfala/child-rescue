@@ -1,0 +1,59 @@
+.btm {
+	height: 100%;
+	width: 100%;
+	background: url("http://www.netzkraft.net/media_large/1487_Imagen_8.jpg") 50% 50% no-repeat scroll;
+    background-size: cover;
+    position: relative;
+}
+
+	.btm .wrapper {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(39, 61, 93, 0.76);
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.btm h2 {
+		color: #fff;
+		text-align: center;
+	}
+
+	.btm h4 {
+		color: #fff;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+	.btm .boxes {
+		margin: 80px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.btm .box {
+		width: 180px;
+		height: 180px;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 300;
+		text-align: center;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.box.dark {
+		background-color: #3e556b;
+	}
+
+	.box.light {
+		background-color: #51667a;
+	}

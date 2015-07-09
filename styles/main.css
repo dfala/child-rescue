@@ -59,6 +59,10 @@ a:hover, a:focus, a:active, a:visited {
 	font-weight: 700;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
 .space-top {
 	margin: 50px 0;
 }

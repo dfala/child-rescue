@@ -10,7 +10,7 @@
 		margin: 0;
 		padding: 0;
 
-		background: url("https://download.unsplash.com/photo-1429277005502-eed8e872fe52") 50% 50% no-repeat scroll;
+		background: url("/styles/main-background.png") 50% 50% no-repeat scroll;
 		background-size: cover;
 
 		display: flex;
